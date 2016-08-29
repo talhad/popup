@@ -10,8 +10,17 @@ for example:
 	git remote add origin https://github.com/talhad/popup.git
 	git push -u origin master
 
-git add .
+update:
+git add . 		
 git commit -m
-	
+git push
+
+git status	
 	
 heroku create my-popup
+
+heroku app:info my-popup
+	- xxx.git
+
+git remote add heroku xxx.git
+git push heroku master
