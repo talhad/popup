@@ -12,19 +12,11 @@ for example:
 
 update:
 git add . 		
-git commit -m
+git commit -m "commit"
 git push
 
 git status	
 	
-heroku create my-popup
-
-heroku app:info my-popup
-	- xxx.git
-
-git remote add heroku xxx.git
-git push heroku master
-
 
 
 virtualenv venv
@@ -32,3 +24,14 @@ venv\Scripts\activate
 pip install flask
 pip freeze > requirements.txt
 python hello_world.py //for checking
+
+git add . 		
+git commit -m "commit"
+
+heroku create my-popup
+
+heroku app:info my-popup
+	- xxx.git
+
+git remote add heroku xxx.git
+git push heroku master
