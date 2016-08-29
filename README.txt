@@ -24,3 +24,11 @@ heroku app:info my-popup
 
 git remote add heroku xxx.git
 git push heroku master
+
+
+
+virtualenv venv
+venv\Scripts\activate
+pip install flask
+pip freeze > requirements.txt
+python hello_world.py //for checking
